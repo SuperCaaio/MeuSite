@@ -9,6 +9,8 @@
 
 html{
     scroll-behavior: smooth;
+    max-width: auto;
+    max-height: auto;
 }
 
 /* custom scroll bar */
@@ -135,11 +137,11 @@ section .title::after{
 
 .navbar.sticky .logo a span::after {
     color: #00FFFF;
-    content: "Caio Santos";
+    content: " Caio Santos";
     font-size: 0.8em;
 }
 
-.navbar .menu li{
+.navbar .menu {
     list-style: none;
     display: inline-block;
 }
