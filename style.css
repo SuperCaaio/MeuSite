@@ -9,8 +9,6 @@
 
 html{
     scroll-behavior: smooth;
-    max-width: auto;
-    max-height: auto;
 }
 
 /* custom scroll bar */
@@ -141,7 +139,7 @@ section .title::after{
     font-size: 0.8em;
 }
 
-.navbar .menu {
+.navbar .menu li{
     list-style: none;
     display: inline-block;
 }
